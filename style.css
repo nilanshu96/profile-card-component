@@ -21,7 +21,7 @@ html {
 }
 
 body {
-    background: url('./images/bg-pattern-top.svg') top -30rem left -20rem no-repeat, url('./images/bg-pattern-bottom.svg') bottom -30rem right -20rem no-repeat,var(--dark-cyan);
+    background: url('./images/bg-pattern-top.svg') top -30rem left no-repeat, url('./images/bg-pattern-bottom.svg') bottom -30rem right no-repeat,var(--dark-cyan);
 }
 
 main {
@@ -29,4 +29,18 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.profile-card {
+    background: white;
+    min-width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.profile-card > img {
+    margin-top: 5rem;
+    border-radius: 50%;
 }
