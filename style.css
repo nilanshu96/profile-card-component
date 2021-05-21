@@ -10,3 +10,23 @@
     /* font */
     --font-kumbh-sans: 'Kumbh Sans', sans-serif;
 }
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url('./images/bg-pattern-top.svg') top -30rem left -20rem no-repeat, url('./images/bg-pattern-bottom.svg') bottom -30rem right -20rem no-repeat,var(--dark-cyan);
+}
+
+main {
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
