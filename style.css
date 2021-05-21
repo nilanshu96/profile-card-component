@@ -24,6 +24,12 @@ body {
     background: url('./images/bg-pattern-top.svg') top -30rem left no-repeat, url('./images/bg-pattern-bottom.svg') bottom -30rem right no-repeat,var(--dark-cyan);
 }
 
+@media screen and (max-width: 640px) {
+    body {
+        background: url('./images/bg-pattern-top.svg') top -40rem left -40rem no-repeat, url('./images/bg-pattern-bottom.svg') bottom -40rem right -40rem no-repeat,var(--dark-cyan);
+    }
+}
+
 main {
     min-height: 90vh;
     display: flex;
@@ -42,7 +48,7 @@ main {
     font-family: var(--font-kumbh-sans);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
     .profile-card {
         min-width: 20rem;
     }
