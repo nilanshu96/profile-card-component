@@ -42,6 +42,12 @@ main {
     font-family: var(--font-kumbh-sans);
 }
 
+@media screen and (max-width: 600px) {
+    .profile-card {
+        min-width: 20rem;
+    }
+}
+
 .profile-card > .image-container {
     background-image: url(./images/bg-pattern-card.svg);
     height: 8.2rem;
@@ -114,10 +120,4 @@ main {
 .profile-card .stats_desc {
     letter-spacing: 0.1rem;
     font-size: 0.7rem;
-}
-
-@media screen and (max-width: 600px) {
-    .profile-card {
-        min-width: 20rem;
-    }
 }
